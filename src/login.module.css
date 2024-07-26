@@ -1,0 +1,129 @@
+.main_login {
+  height: 100vh; /* Set height to cover full page */
+  background: linear-gradient(0deg, #c2e9ff, #edf8ff00 105.2%);
+}
+
+.logo {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 30px;
+  padding-top: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  max-width: 23rem;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.textfield {
+  width: 100%;
+  max-width: 100%;
+  outline: none;
+  height: 50px;
+}
+.input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.submitButton {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.25s all;
+}
+.submitButton:hover {
+  background-color: #45a049;
+}
+.second_div_container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.customLink {
+  cursor: pointer;
+  font-size: 15px;
+}
+.terms {
+  font-size: 17px;
+  text-wrap: balance;
+  text-align: center;
+}
+.term_div {
+  text-align: center;
+  text-wrap: balance;
+  height: 30px;
+}
+.logo_image {
+  width: 250px;
+  object-fit: contain;
+}
+@media screen and (max-width: 1500px) {
+  .main_login {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main_login {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .loginContainer {
+    width: 90%;
+  }
+  .terms {
+    font-size: 14px;
+    margin: 0px;
+  }
+  .main_login {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    padding-left: 0px;
+    justify-content: center;
+    align-items: center !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .term_div {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .p_tag {
+    font-size: 15px;
+  }
+  .customLink {
+    font-size: 13px;
+  }
+  .terms {
+    font-size: 12px;
+  }
+}
